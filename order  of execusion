@@ -1,0 +1,21 @@
+class A{
+    A(){ //constructor
+        	System.out.println("this is java");
+    } 
+    { //instance block
+        	System.out.println("hello");
+    }
+     static { //staric block
+        	System.out.println("so funny");
+    }
+ }
+public class Main
+{
+	public static void main(String[] args) {
+		 A r = new A(); //making object for instance block and constructor
+	}
+}
+/* output
+ so funny = static block executed
+ hello    = instance block executed
+ this is java = constructor executed
