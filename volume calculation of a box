@@ -1,0 +1,20 @@
+//volume of a box (constructor without parameter)
+     class box{
+     int length, height, width; //instance variable
+     box(){
+         // constructor without parameter(if we don't declare any value it will provide default value)
+     }
+     int volume(){
+         return length*width*height; //method for volume calculation
+     }
+ }
+public class Main
+{
+	public static void main(String[] args) {
+	    box b = new box(); //object create
+	    b.length= 5; //defining values at main method
+	    b.height= 10;
+	    b.width= 2;
+		System.out.println(b.volume()); //b is the reference and calling volume method
+	}
+}
