@@ -1,0 +1,35 @@
+public class Car{
+    String brand;
+    String model;
+    int year;
+    double mileage;
+     public Car(String brand, String model, int year,double mileage){
+        this.brand=brand;
+        this.model=model;
+        this.year=year;
+        this.mileage=mileage;
+    }
+    public  Car(String brand, int year ){
+        this.brand=brand;
+        this.year=year;
+         this.model="none";
+        this.mileage=0.0;
+    }
+    public  void displayCarInfo(){
+        System.out.println("Car name: "+this.brand);
+        System.out.println("Model: "+this.model);
+        System.out.println("year: "+this.year);
+        System.out.println("Mileage: "+this.mileage);
+    }
+  
+
+	public static void main(String[] args) {
+	    Car c1 = new Car("toyota", "corolla", 2020,15000.0 );
+	    Car c2 = new Car("hundai", 2022);
+	    c1.displayCarInfo();
+	    System.out.println();
+	    c2.displayCarInfo();
+	 
+	}
+
+ }
