@@ -1,0 +1,35 @@
+public class Book
+{
+   String title;
+   String author;
+   double price;
+   boolean available;
+   public Book(String title, String author, double price,boolean available){
+       this.title= title;
+       this.author= author;
+       this.price= price;
+       this.available= available;
+   }
+   public Book(String title,double price){
+       this.title= title;
+       this.price=price;
+       this.author= "null";
+       this.available= false;
+   }
+   public void showDetails(){
+       	System.out.println("Book: "+this.title.toUpperCase());
+       		System.out.println("Author: "+this.author);
+       		System.out.println("Price: "+this.price);
+       		System.out.println("Available: "+this.available);
+       		
+   }
+	public static void main(String[] args) {
+	   Book b1 = new Book("Harry potter", "J.K Rowling",120.0, true);
+	   Book b2 = new Book("Beyond the Story",5000.0);
+	   b1.showDetails();
+	   	System.out.println();
+	   	b2.showDetails();
+	   
+	
+	}
+}
