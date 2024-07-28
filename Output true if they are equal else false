@@ -1,0 +1,11 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+public class Main
+{
+	public static void main(String[] args) {
+		 int h1=15;
+		 int h2= 13;
+		 System.out.println(h1==h2);
+	}
+}
