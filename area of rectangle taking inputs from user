@@ -1,0 +1,26 @@
+import java.util.*;
+class Area{
+    int length;
+    int width;
+    Area(int a, int b){
+        length=a;
+        width=b;
+        
+    }
+    int calculate(int a, int b){
+        return a*b;
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	   Scanner sc= new Scanner(System.in);
+	   System.out.println("enter length: ");
+	   int m= sc.nextInt();
+	     System.out.println("enter width: ");
+	   int n= sc.nextInt();
+	   Area a= new Area(m,n);
+	   int p= a.calculate(m,n);
+	   System.out.println("Area is- "+p);
+	}
+}
