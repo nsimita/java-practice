@@ -1,0 +1,22 @@
+public class Main
+{
+	public static void main(String[] args) {
+	 double a = 3.14;
+	 double b = -12;
+	 double z= Math.max(a,b);
+	 System.out.println(z);
+       double  c = Math.min(a,b);
+        System.out.println(c);
+        double x = Math.abs(b);//abstract method
+	 System.out.println(x);
+          double p= 25;
+	 double q= Math.sqrt(p);
+	 System.out.println(q);
+         double y = Math.round(a);
+	 System.out.println(y);
+         double y = Math.ceil(a);
+	 System.out.println(y);
+	 System.out.println(x);
+	 double y = Math.floor(a);
+	}
+}
