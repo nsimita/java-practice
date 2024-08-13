@@ -5,6 +5,8 @@ public class Main
 	 double b = -12;
 	 double z= Math.max(a,b);
 	 System.out.println(z);
+       double  c = Math.min(a,b);
+        System.out.println(c);
 	 
 	}
 }
