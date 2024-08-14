@@ -1,0 +1,19 @@
+//generating random values
+import java.util.Random; //in order to use random values, we have to import the Random class
+public class Main
+{
+	public static void main(String[] args) {
+		 Random r = new Random(); //creating Random instance
+		 int x = r.nextInt(); //same for double, float and others
+		System.out.println(x); // it will print -2B to -2B
+		  
+		  to define limit
+		   int y = r.nextInt(6); //generate numbers between 0 and 5 as computer generates numbers from 0.
+		  System.out.println(y);
+		  int z = r.nextInt(6)+1; //to get numbers from 1 to 6
+		  System.out.println(z);
+		 boolean a = r.nextBoolean();
+		 System.out.println(a);
+		 
+	}
+}
