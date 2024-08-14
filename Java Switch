@@ -1,0 +1,23 @@
+public class Main
+{
+	public static void main(String[] args) {
+		  String day = "Tuesday";
+		  switch(day){
+		      case "Sunday" : System.out.println("It's Sunday"); //if this case matches then execute the print  
+		      break; //as this case is matched so it will stop checking
+		      case "Monday" : System.out.println("It's Monday"); //if the case does't match, then it will continue
+		      break;
+		      case "Tuesday" : System.out.println("It's Tuesday");
+		      break;
+		      case "Wednesday" : System.out.println("It's Wednesday");
+		      break;
+		      case "Thursday" : System.out.println("It's Thursday");
+		      break;
+		      case "Friday" : System.out.println("It's Friday");
+		      break;
+		      case "Saturday" : System.out.println("It's Saturday");
+		      break;
+		  }
+		 
+	}
+}
