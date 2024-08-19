@@ -1,0 +1,15 @@
+//do while loop= executes a block of code as long as it's condition remains true
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		 Scanner sc = new Scanner(System.in);
+		 String name = "";
+		do{ //for this isBlank() method loop will execute until giving any input
+		     System.out.print("Enter your name: ");
+		     name = sc.nextLine(); //storing the name
+		    
+		 }  while(name.isBlank()); //attempt the block at least once and check the condition
+		 System.out.println("Hi...."+name);
+	}
+}
