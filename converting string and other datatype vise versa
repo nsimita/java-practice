@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+        int a = 10;
+        float f = 2.4f;
+        double d = 4.55;
+        boolean e = true;
+        String s1 = ""+a;
+        //converting string from any data type
+        String s2 =String.valueOf(f);
+       String s3 = String.valueOf(d);
+       String s4 = String.valueOf(e);
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s3);
+        System.out.println(s4);
+        // converting any datatype from string
+        int a1 = Integer.parseInt(s1);
+        float f1 = Float.parseFloat(s2);
+        boolean e1 = Boolean.parseBoolean(s4);
+
+    }
+}
