@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main {
+    //equality
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       String s1 = "Namjoon";
+        System.out.println("enter the string");
+       for(int i=0; i<7;i++){
+           String s2 = sc.next();
+           if(s1.equals(s2)){
+               System.out.println("equal");
+           }
+           else{
+               System.out.println("not equal");
+           }
+
+       }
+    }
