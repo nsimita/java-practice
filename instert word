@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner s = new Scanner(System.in);
+	    String main = "I You";
+	    System.out.println("the word you want to add");
+	    String ins = s.nextLine();
+	    StringBuilder b = new StringBuilder(main);
+	    b.insert(2,ins);
+	    String res = b.toString();
+	    System.out.println(res);
+		 
+	}
+}
